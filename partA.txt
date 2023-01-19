@@ -1,0 +1,43 @@
+/u/jayc/cs429:
+total 4
+drwx------ 7 jayc under 4096 Jan 19 14:28 projects
+
+/u/jayc/cs429/projects:
+total 20
+drwx------ 2 jayc under 4096 Jan 19 14:28 proj5
+drwx------ 2 jayc under 4096 Jan 19 14:28 proj4
+drwx------ 2 jayc under 4096 Jan 19 14:28 proj3
+drwx------ 2 jayc under 4096 Jan 19 14:28 proj2
+drwx------ 4 jayc under 4096 Jan 19 16:22 proj1
+
+/u/jayc/cs429/projects/proj5:
+total 0
+
+/u/jayc/cs429/projects/proj4:
+total 0
+
+/u/jayc/cs429/projects/proj3:
+total 0
+
+/u/jayc/cs429/projects/proj2:
+total 0
+
+/u/jayc/cs429/projects/proj1:
+total 4
+drwx------ 3 jayc under 4096 Jan 19 17:13 lb-lab-jaychakraborti
+
+/u/jayc/cs429/projects/proj1/lb-lab-jaychakraborti:
+total 52
+-rw------- 1 jayc under 2167 Jan 19 14:46 structs.h
+-rw------- 1 jayc under 1745 Jan 19 14:46 structs.c
+-rw------- 1 jayc under  105 Jan 19 14:46 strings.h
+-rw------- 1 jayc under 2644 Jan 19 14:46 strings.c
+-rw------- 1 jayc under 2002 Jan 19 14:46 README.md
+-rw------- 1 jayc under   62 Jan 19 14:46 pointers.h
+-rw------- 1 jayc under 4853 Jan 19 14:46 pointers.c
+-rw------- 1 jayc under  750 Jan 19 14:46 partB-ref-20.txt
+-rw------- 1 jayc under  771 Jan 19 14:46 partB-ref-18.txt
+-rw------- 1 jayc under    0 Jan 19 17:13 partA.txt
+-rw------- 1 jayc under 3227 Jan 19 16:07 Makefile
+-rw------- 1 jayc under 6220 Jan 19 14:46 main.c
+-rw------- 1 jayc under  903 Jan 19 14:46 debug.c

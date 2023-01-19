@@ -42,6 +42,9 @@ partA.txt:
 	ls -lrR ~/cs429 > partA.txt
 
 partB.txt:
+	man man | grep -A 4 -m 1 "DESCRIPTION" > d2Des.txt
+	man grep | grep -A 2 "DESCRIPTION" > dummyDes.txt
+	cat d2Des.txt dummyDes.txt > partB.txt
 # STUDENT TODO: Put your commands for part B here.
 
 # This target compiles the main runner executable.
