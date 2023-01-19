@@ -87,9 +87,9 @@
 void pointers_task_1(int *a, int* b) {
     // STUDENT TODO: Uncomment and replace the 
     // question marks with appropriate code.
-    // int temp = ?;
-    // *a = ?;
-    // *b = ?; 
+     int temp = *a;
+     *a = *b;
+     *b = temp; 
 }
 
 /****************************************
@@ -123,7 +123,7 @@ void pointers_task_1(int *a, int* b) {
  * a data type uses, will be useful here.
  ****************************************/
 int *pointers_task_2() { 
-    int array[3]; // STUDENT TODO: Replace this line.
+    int array = (int*)malloc(3 * sizeof(int)); // STUDENT TODO: Replace this line.
     array[0] = 4;
     array[1] = 2;
     array[2] = 9;
