@@ -54,10 +54,10 @@ node_t *structs_task_2(node_t *head) {
     // "while(next != NULL)".
     while(next) {
         // STUDENT TODO: Your code here.
-        next = head->next;
         head->next = prev;
         prev = head;
         head = next;
+        next = head->next;
     }
     
     head->next = prev;
