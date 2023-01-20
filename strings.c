@@ -64,7 +64,7 @@ void strings_task_1(char *buffer) {
  ***************************************/
 void strings_task_2(char *buffer) {
     // STUDENT TODO: Fix the loop condition.
-    for(int i = 0; i < sizeof(buffer); i++) {
+    for(int i = 0; i < strlen(buffer); i++) {
         // STUDENT TODO: Replace this with your code.
         buffer[i] = toupper(buffer[i]);
     }
