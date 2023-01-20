@@ -26,10 +26,10 @@ node_t *structs_task_1() {
     node_t *head = NULL;
     for (int i = 5; i > 0; i--) {
         // STUDENT TODO: Replace these lines inside the loop.
-        node_t temp;
-        temp.data = i;
-        temp.next = head;
-        head = &temp;
+        node_t *temp = (node_t*) malloc(sizeof(node_t));
+        temp->data = i;
+        temp->next = head;
+        head = temp;
     }
     return head;
 }
@@ -54,6 +54,10 @@ node_t *structs_task_2(node_t *head) {
     // "while(next != NULL)".
     while(next) {
         // STUDENT TODO: Your code here.
+        next = head->next;
+        head->next = prev;
+        prev = head;
+        head = next;
     }
     
     head->next = prev;
